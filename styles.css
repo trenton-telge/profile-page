@@ -13,8 +13,10 @@ body, html, .wrapper{
     font-family: Helvetica, sans-serif;
     overflow-x: hidden;
 }
-.wrapper{
+body {
     background: url("./img/concrete-texture.png") repeat;
+}
+.wrapper{
     margin-bottom: 10px;
 }
 .wrapper, .fw-div{
