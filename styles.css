@@ -1,14 +1,21 @@
 h1, img {
     text-align: center;
 }
+
+ul, li, a {
+    margin:0;
+    padding:0;
+}
 body, html, .wrapper{
     margin: 0;
     padding: 0;
-    height: 100vh;
     width: 100vw;
+    font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 .wrapper{
     background: url("./img/concrete-texture.png") repeat;
+    margin-bottom: 10px;
 }
 .wrapper, .fw-div{
     display: flex;
@@ -26,4 +33,24 @@ body, html, .wrapper{
     max-width:80vw;
     width: 3in;
     margin-top:.5in;
+    border-radius: 10px;
+}
+.left{
+    margin-left: 15vw;
+    width: 35vw;
+}
+.left p, .right p, ul{
+    margin:10pt;
+    font-size: 14pt;
+}
+.right{
+    margin-right: 15vw;
+    width: 35vw;
+}
+.half-width-span{
+    width: 100%;
+    text-align: center;
+}
+.left a{
+    margin: 0;
 }
